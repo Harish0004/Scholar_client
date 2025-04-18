@@ -27,7 +27,7 @@ const Login = () => {
 			if (response.status === 200) {
 				alert("Login successful!");
 				localStorage.setItem("token", response.data.token); // Store token for future requests
-				window.location.href = "/dashboard"; // Redirect to dashboard or home
+				window.location.href = "/aluminidash"; // Redirect to dashboard or home
 			}
 		} catch (error) {
 			// Handle error response

@@ -1,0 +1,80 @@
+.requests-layout {
+    display: flex;
+  }
+  
+  .requests-main {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f1f5f9;
+    min-height: 100vh;
+  }
+  
+  .requests-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .request-card {
+    background-color: #fff;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  .request-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .request-from {
+    font-size: 1.1rem;
+  }
+  
+  .request-status {
+    background-color: #facc15; /* yellow */
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  
+  .request-message {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .request-date {
+    margin-top: 0.25rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .request-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-accept {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-reject {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
