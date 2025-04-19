@@ -11,6 +11,7 @@ import ConnectWithAlumni from "./pages/student/ConnectWithAlumni ";
 import StudentProfile from "./pages/student/StudentProfile";
 import AlumniDashboard from "./pages/alumini/AlumniDashboard";
 import IncomingRequests from "./pages/alumini/IncomingRequests";
+import AlumniMentorship from "./pages/alumini/AlumniMentorship";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -23,14 +24,11 @@ function App() {
 					<Route path="/aluminiLogin" element={<AluminiLogin />} />
 					<Route path="/aluminiRegister" element={<AluminiRegister />} />
 					<Route path="/studDash" element={<Dashboard />} />
-					<Route path="/scholarships" element={<AvailableScholarships />} />
-					<Route path="/applications" element={<MyApplications />} />
 					<Route path="/alumniconnect" element={<ConnectWithAlumni />} />
 					<Route path="/profile" element={<StudentProfile />} />
 					<Route path="/aluminidash" element={<AlumniDashboard />} />
 					<Route path="/requests" element={<IncomingRequests />} />
-
-
+					<Route path="/scholarships" element={<AlumniMentorship />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

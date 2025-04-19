@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 const AlumniSidebar = () => {
   const menuItems = [
     { name: 'Dashboard', path: '/aluminidash' },
-    { name: 'Student Requests', path: '/requests' },
-    { name: 'My Scholarships', path: '/alumni/scholarships' },
+    { name: 'Student Requests', path: '/requests' }, // FIXED PATH
+    { name: 'My Scholarships', path: '/scholarships' },
     { name: 'Mentoring', path: '/alumni/mentoring' },
     { name: 'Profile', path: '/alumni/profile' },
     { name: 'Logout', path: '/logout' },
